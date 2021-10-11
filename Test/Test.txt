@@ -10,7 +10,7 @@ Punto 1:
   a- A través de que extension de archivo se genera un script de python. Ejemplifique.
   b- Definir con sus palabras que es una variable?
 
-Respuesta: 
+Respuestas: 
   a- Para generar un scrip se debe usar ".py" por ejemplo:  Ejemplo.py
   b- Una variable es un nombre que se usa para identificar un tipo de dato. Por ejemplo:
      variable_1 = int(input("ingrese un numero: ")).
@@ -24,7 +24,19 @@ Punto 2:
   b- Enumere los tipos de colecciones que conoce. 
      Cual es la diferencia entre los tipos list y tuple  
 
-
+Respuestas:
+  a- En python podemos encontrar distintos tipos de datos primitivos:
+     1- Booleanos.
+     2- Los numéricos (enteros, punto flotante y complejos).
+     3- Cadenas de caracteres.
+     El dato tipo int sirve para guardar datos de numeros enteros "10", en cambio el dato tipo float sirve para guardar datos de numeros con coma "10.1"
+  b- Tipos de colleciones: 
+     1- Listas.
+     2- Diccionarios.
+     3- Tuples.
+     4- Set. 
+     Las lista son un tipo de coleccion ordenadas y modificables y las tuples son un tipo de coleccion ordenada e inmutables. Tambien en las listas
+     se aceptan datos duplicados y en las tuples no.   
 
 
 ___________________________________________________________________________________
