@@ -85,7 +85,7 @@ Punto 3:
     "mi_variable = 4" con el dato del if ">3", como 4 es mayor a 3 el bloque se ejecuta.
     b- Al cambiar el valor de "mi_variable" el resultado es el mismo, ya que 7 sigue siendo mayor a 3, el bloque dentro del "if > 3" se ejecuta y corta. 
 
-   sd
+   
 
 
 
@@ -106,7 +106,9 @@ Punto 4:
     d- Genere un ejemplo del bucle "while" en el cual se imprima 5 veces la siguiente 
         frase por consola: "La condición se cumplio." 
 
-
+Respuestas:
+    a- La iteracion se corta cuando el bucle for termina de recorrer el elemento. 
+    b- El blucle while termina de iterar cuando el valor pasa a ser de True a False. 
 
 
 
