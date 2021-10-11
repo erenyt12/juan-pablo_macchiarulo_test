@@ -79,6 +79,11 @@ Punto 3:
 
     Cual y porque es el print que se muestra por consola? Describa el resultado. 
     Puede hacer uso del debug.
+  
+  Respuestas:
+    a- El print que se muestra por consola es "Ha ingresado a la segunda validación." Esto pasa porque la secuencia compara el dato de la variable 
+    "mi_variable = 4" con el dato del if ">3", como 4 es mayor a 3 el bloque se ejecuta.
+    b- Al cambiar el valor de "mi_variable" el resultado es el mismo, ya que 7 sigue siendo mayor a 3, el bloque dentro del "if > 3" se ejecuta y corta. 
 
 
 
