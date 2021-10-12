@@ -17,7 +17,7 @@ else:
 # Fin del código
 
 
-#Solucion al problema.
+# Solucion al problema.
 # mi_variable = 7
 
 # if mi_variable == 0:
