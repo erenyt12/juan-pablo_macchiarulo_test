@@ -157,8 +157,14 @@ Punto 6:
   b- Las funciones de orden superior reciben como parametro otras funciones. Enumere cuales conoce
      y describa brevemente para que sirve cada una. 
 
-
-
+Respuestas:
+  b- map(): Esta funcion aplica una funcion a cada uno de los elementos de una lista.
+     reduce(): Esta funcion sirve para llevar un calculo acumulativo en una lista de valores y devolver un 
+     resultado.
+     filter(): Esta funcion filtra una lista de elementos para los que una funcion devuelve true.
+     enumerate(): Esta funcion agrega un contador a un iterable y lo devuelve en forma de objeto enumerador.
+     zip(): Esta funcion se usa para mapear los mismos índices en más de un iterable.
+     
 
 
 
