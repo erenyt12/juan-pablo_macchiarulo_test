@@ -267,7 +267,12 @@ Punto 9:
   a- Con que palabra reservada se lanza una excepción ?
   b- Con que sentencia se maneja una excepción?
 
-
+Respuestas:
+  a- La palabra reservada es "except" junto con el nombre del error. 
+  b- try:
+        3 + 3
+        except "nombre del error"
+        print("algun mensaje, por ejemplo: instrucciones para solucionar el error") 
 
 
 
@@ -284,7 +289,8 @@ Punto 10:
 
   Explique con sus palabras para que sirve un decorador? 
 
-
+Respuestas:
+  Un decorador sirve para agregar funciones a una funcion creada sin modificarla, tambien para que el codigo sea mas corto y ahorrar tiempo. 
 
 
 
