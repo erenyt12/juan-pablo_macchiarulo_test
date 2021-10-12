@@ -18,10 +18,10 @@ def funcionSuma():
             break
 
 def funcionResta():
-    """ Esta funcion toma datos de tipo int para luego sumarlos. """
+    """ Esta funcion toma datos de tipo int para luego restarlos. """
     #Bandera
     bandera = 0
-    cantidad_de_numeros = int(input("Cuantos numeros quiere sumar?: "))
+    cantidad_de_numeros = int(input("Cuantos numeros quiere restar?: "))
     #Ciclo while
     una_lista = []
     while bandera < cantidad_de_numeros:
@@ -29,7 +29,7 @@ def funcionResta():
         una_lista.append(numeros)
         bandera = bandera + 1
         if bandera == cantidad_de_numeros:
-            operacion = reduce(lambda x, y: x + y, una_lista)
+            operacion = reduce(lambda x, y: x - y, una_lista)
             print(f"el resultado es: ",operacion)
             break
                
