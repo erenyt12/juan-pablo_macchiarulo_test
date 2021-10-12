@@ -36,16 +36,20 @@
  """
 
 
-from funciones import funcionSuma, funcionResta, funcionDivision, funcionMultiplicar
+from funciones import funcionSuma, funcionResta, funcionDivision, funcionMultiplicar, paresImpares, acumulador
 
 
 continuar = True
 
 print("""               Menu
+         Menu
         1- suma
         2- resta
         3- division
-        4- multiplicacion """)
+        4- multiplicacion
+        5- pares e impares 
+        6- acumulador
+        7- salir del sistema """)
 while continuar:
 
     opcion = int(input("ingrese una opcion: "))
@@ -57,6 +61,13 @@ while continuar:
         funcionDivision()
     elif opcion == 4:
         funcionMultiplicar()
+    elif opcion == 5:
+        paresImpares()
+    elif opcion == 6:
+        acumulador()
+    elif opcion == 7:
+        print("saliendo del programa...")
+        continuar = False
     else:
-        pass
+        print("no se encuentra la opcion: ",opcion,",intentelo de nuevo")
         
