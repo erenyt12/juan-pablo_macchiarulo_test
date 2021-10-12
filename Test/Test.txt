@@ -159,12 +159,16 @@ Punto 6:
 
 Respuestas:
   b- map(): Esta funcion aplica una funcion a cada uno de los elementos de una lista.
+     
      reduce(): Esta funcion sirve para llevar un calculo acumulativo en una lista de valores y devolver un 
      resultado.
-     filter(): Esta funcion filtra una lista de elementos para los que una funcion devuelve true.
-     enumerate(): Esta funcion agrega un contador a un iterable y lo devuelve en forma de objeto enumerador.
-     zip(): Esta funcion se usa para mapear los mismos índices en más de un iterable.
      
+     filter(): Esta funcion filtra una lista de elementos para los que una funcion devuelve true.
+     
+     enumerate(): Esta funcion agrega un contador a un iterable y lo devuelve en forma de objeto enumerador.
+     
+     zip(): Esta funcion se usa para mapear los mismos índices en más de un iterable.
+
 
 
 
@@ -210,6 +214,10 @@ Punto 7:
 
   Cual es la diferencia entre el return y el yield en un bucle for?
 
+  Respuestas:
+    return devuelve el primer elemento y corta la funcion. 
+    yield devuelve todos los elementos.
+
 
 
 
@@ -240,7 +248,9 @@ Punto 8:
   Que beneficio le aportaria haber hecho uso de: if __name__ == "__main__":
 
 
-
+Respuestas:
+  El beneficio de if __name__ == "__main__" es que es una validación, mientras que esta este activada al importar el modulo_a en el modulo_b
+  lo que este dentro de esta validación no seran ejecutadas en el modulo_b.
 
 
 
